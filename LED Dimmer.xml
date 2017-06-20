@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Sam/Documents/KiCad/LED command center/LED Dimmer.sch</source>
+    <date>6/19/2017 9:36:32 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LED Dimmer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P4">
+      <value>PWR</value>
+      <footprint>LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK</footprint>
+      <libsource lib="LED Dimmer-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59265FE0</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Red Load</value>
+      <footprint>LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK</footprint>
+      <libsource lib="LED Dimmer-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59266BEB</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>33k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926B7C4</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926BA26</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>43k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926BAA1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>LED Dimmer Footprints:C_Disc</footprint>
+      <libsource lib="LED Dimmer-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926BAFD</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_EBC</value>
+      <footprint>LED Dimmer Footprints:TO-92_Molded_Wide</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926BCC4</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_PNP_EBC</value>
+      <footprint>LED Dimmer Footprints:TO-92_Molded_Wide</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_PNP_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926BEA1</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_PNP_EBC</value>
+      <footprint>LED Dimmer Footprints:TO-92_Molded_Wide</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_PNP_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926C4F5</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926C629</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>LED Dimmer Footprints:D_axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5926C7E0</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM555N</value>
+      <footprint>LED Dimmer Footprints:DIP8</footprint>
+      <libsource lib="LED Dimmer-cache" part="LM555N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5928CD87</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>100k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59267607</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>100k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59267776</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>500K</value>
+      <footprint>LED Dimmer Footprints:POT_UM_296RE</footprint>
+      <libsource lib="LED Dimmer-cache" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5928F203</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM358</value>
+      <footprint>LED Dimmer Footprints:DIP8_dualopamp</footprint>
+      <libsource lib="LED Dimmer-cache" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5928F733</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929069A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59290813</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929089F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59290BF2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>N/C</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59290C82</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k5</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592951C3</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59299BA7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>TIP31C</value>
+      <footprint>LED Dimmer Footprints:TO-220_Vertical</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_NPN_BCE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929A26B</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>330</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929A2E8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_RABG</value>
+      <footprint>LED Dimmer Footprints:LED_D5.0mm-4</footprint>
+      <libsource lib="LED Dimmer-cache" part="LED_RABG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929F906</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Green Load</value>
+      <footprint>LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK</footprint>
+      <libsource lib="LED Dimmer-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A6279</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM358</value>
+      <footprint>LED Dimmer Footprints:DIP8_dualopamp</footprint>
+      <libsource lib="LED Dimmer-cache" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A627F</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k5</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A62C5</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A62D1</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>TIP31C</value>
+      <footprint>LED Dimmer Footprints:TO-220_Vertical</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_NPN_BCE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A62D7</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>360</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A62DD</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Blue Load</value>
+      <footprint>LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK</footprint>
+      <libsource lib="LED Dimmer-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68A1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM358</value>
+      <footprint>LED Dimmer Footprints:DIP8_dualopamp</footprint>
+      <libsource lib="LED Dimmer-cache" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68A7</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>N/C</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68E3</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k5</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68ED</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68F9</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>TIP31C</value>
+      <footprint>LED Dimmer Footprints:TO-220_Vertical</footprint>
+      <libsource lib="LED Dimmer-cache" part="Q_NPN_BCE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A68FF</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>300</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A6905</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>33k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929B052</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929CFD6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929D28C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EA8E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EA94</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EA9A</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>N/C</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EAA0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EAB3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929EAB9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A05AE</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A05B4</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A05BA</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A05C8</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592A05CE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59420DF7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59422BF5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59422BFB</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>3k3</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942347C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>LED Dimmer Footprints:R_Axial</footprint>
+      <libsource lib="LED Dimmer-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59423482</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59424194</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594242E9</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59426E1F</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59426EB4</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59426FC3</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59427B12</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59427BD7</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TEST</value>
+      <footprint>LED Dimmer Footprints:Measurement_Point_Round-SMD-Pad_Big</footprint>
+      <libsource lib="LED Dimmer-cache" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59427C78</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59428968</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59428B8B</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59428C7E</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59428D7A</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942A24A</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942A250</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942A256</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942A25C</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942BC16</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942BC1C</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942BC22</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_SPDT</value>
+      <footprint>LED Dimmer Footprints:SW_SPDT_PCBPM</footprint>
+      <libsource lib="LED Dimmer-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5942BC28</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LED Dimmer-cache" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="D">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="LED_RABG">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RABG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="GK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="LM358">
+      <aliases>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>LM358N</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>4558</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TLC272</alias>
+        <alias>MCP602</alias>
+      </aliases>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="LM555N">
+      <aliases>
+        <alias>NE555</alias>
+        <alias>ICM7555</alias>
+        <alias>LMC555</alias>
+        <alias>TLC555</alias>
+        <alias>NA555</alias>
+        <alias>SE555</alias>
+        <alias>SA555</alias>
+      </aliases>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="POT">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="Q_NPN_BCE">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="Q_NPN_EBC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="Q_PNP_EBC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="SW_SPDT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED Dimmer-cache" part="TEST">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LED Dimmer-cache">
+      <uri>C:\Users\Sam\Documents\KiCad\LED command center\LED Dimmer-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R6-Pad2)">
+      <node ref="SW4" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R3-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R34-Pad2)">
+      <node ref="R35" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="9" name="Net-(R13-Pad2)">
+      <node ref="SW7" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R11-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R11-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="12" name="+12V">
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R37" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R34" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R28-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="17" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="18" name="VB">
+      <node ref="TP3" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R29-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="21" name="VG">
+      <node ref="R26" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="22" name="Net-(R10-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R14-Pad2)">
+      <node ref="SW8" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R9-Pad1)">
+      <node ref="SW5" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="29" name="Net-(SW12-Pad3)">
+      <node ref="SW12" pin="3"/>
+    </net>
+    <net code="30" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="31" name="Net-(SW11-Pad3)">
+      <node ref="SW11" pin="3"/>
+    </net>
+    <net code="32" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="SW11" pin="1"/>
+    </net>
+    <net code="33" name="Net-(SW10-Pad3)">
+      <node ref="SW10" pin="3"/>
+    </net>
+    <net code="34" name="Net-(SW9-Pad3)">
+      <node ref="SW9" pin="3"/>
+    </net>
+    <net code="35" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R17-Pad1)">
+      <node ref="SW9" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="37" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="38" name="LEDG">
+      <node ref="TP5" pin="1"/>
+      <node ref="D1" pin="4"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="39" name="LEDB">
+      <node ref="D1" pin="3"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R18-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="41" name="Net-(SW8-Pad3)">
+      <node ref="SW8" pin="3"/>
+    </net>
+    <net code="42" name="Net-(SW7-Pad3)">
+      <node ref="SW7" pin="3"/>
+    </net>
+    <net code="43" name="Net-(SW6-Pad3)">
+      <node ref="SW6" pin="3"/>
+    </net>
+    <net code="44" name="Net-(SW5-Pad3)">
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="45" name="Net-(SW4-Pad3)">
+      <node ref="SW4" pin="3"/>
+    </net>
+    <net code="46" name="Net-(SW3-Pad3)">
+      <node ref="SW3" pin="3"/>
+    </net>
+    <net code="47" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="48" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="49" name="LEDR">
+      <node ref="R31" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="50" name="Net-(P1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D2-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="52" name="VR">
+      <node ref="U1" pin="6"/>
+      <node ref="R25" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="53" name="LAMBDA">
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R36" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="R24" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U3" pin="4"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R40" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="55" name="+6V">
+      <node ref="U1" pin="3"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="56" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="57" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="58" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="59" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="60" name="Net-(P2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(P3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+  </nets>
+</export>
