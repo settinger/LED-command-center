@@ -1,0 +1,680 @@
+(pcb "C:\Users\SamE\Documents\KiCad\LED-command-center\LED Dimmer.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  205740 -46990  87630 -46990  87630 -48895  87630 -52070
+            87630 -121920  111125 -121920  205740 -121920  205740 -119380
+            205740 -97790  205740 -46990  205740 -46990)
+    )
+    (via "Via[0-1]_600:406.4_um")
+    (rule
+      (width 254)
+      (clearance 457.3)
+      (clearance 457.3 (type default_smd))
+      (clearance 114.3 (type smd_smd))
+    )
+  )
+  (placement
+    (component "LED Dimmer Footprints:C_Disc"
+      (place C1 94615 -63500 back 0 (PN 10n))
+    )
+    (component "LED Dimmer Footprints:LED_D5.0mm-4"
+      (place D1 102235 -65405 front 0 (PN LED_RABG))
+    )
+    (component "LED Dimmer Footprints:D_axial"
+      (place D2 91440 -67310 back 180 (PN 1N4148))
+    )
+    (component "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK"
+      (place P1 194945 -55880 front 90 (PN "Red Load"))
+      (place P2 194945 -79375 front 90 (PN "Green Load"))
+      (place P3 194945 -102870 front 90 (PN "Blue Load"))
+      (place P4 98425 -113030 front 270 (PN PWR))
+    )
+    (component "LED Dimmer Footprints:TO-220_Vertical"
+      (place Q1 198120 -64135 front 270 (PN TIP31C))
+      (place Q2 198120 -87630 front 270 (PN TIP31C))
+      (place Q3 198120 -111125 front 270 (PN TIP31C))
+    )
+    (component "LED Dimmer Footprints:TO-92_Molded_Wide"
+      (place Q4 132715 -56515 back 180 (PN Q_PNP_EBC))
+      (place Q5 123190 -56515 back 180 (PN Q_PNP_EBC))
+      (place Q6 113665 -56515 back 180 (PN Q_NPN_EBC))
+    )
+    (component "LED Dimmer Footprints:POT_UM_296RE"
+      (place RV1 100965 -102235 front 0 (PN 500K))
+    )
+    (component "LED Dimmer Footprints:SW_SPDT_PCBPM"
+      (place SW1 148590 -65405 front 90 (PN SW_SPDT))
+      (place SW2 160020 -65405 front 90 (PN SW_SPDT))
+      (place SW3 171450 -65405 front 90 (PN SW_SPDT))
+      (place SW4 182880 -65405 front 90 (PN SW_SPDT))
+      (place SW5 148590 -85725 front 90 (PN SW_SPDT))
+      (place SW6 160020 -85725 front 90 (PN SW_SPDT))
+      (place SW7 171450 -85725 front 90 (PN SW_SPDT))
+      (place SW8 182880 -85725 front 90 (PN SW_SPDT))
+      (place SW9 148590 -106045 front 90 (PN SW_SPDT))
+      (place SW10 160020 -106045 front 90 (PN SW_SPDT))
+      (place SW11 171450 -106045 front 90 (PN SW_SPDT))
+      (place SW12 182880 -106045 front 90 (PN SW_SPDT))
+    )
+    (component "LED Dimmer Footprints:R_Axial"
+      (place R40 91440 -56515 back 90 (PN 1k))
+      (place R39 95885 -56515 back 270 (PN 1k))
+      (place R38 94615 -81280 back 270 (PN 100k))
+      (place R37 94615 -74295 back 90 (PN 100k))
+      (place R36 100330 -56515 back 90 (PN 43k))
+      (place R35 104775 -56515 back 270 (PN 33k))
+      (place R34 109220 -56515 back 90 (PN 33k))
+      (place R33 193040 -113030 back 270 (PN 300))
+      (place R32 193040 -89535 back 270 (PN 360))
+      (place R31 193040 -66040 back 270 (PN 330))
+      (place R30 132080 -106045 back 180 (PN 10k))
+      (place R29 131445 -85725 back 180 (PN 10k))
+      (place R28 132080 -65405 back 180 (PN 10k))
+      (place R27 139700 -106045 back 180 (PN 1k5))
+      (place R26 139065 -85725 back 180 (PN 1k5))
+      (place R25 139700 -65405 back 180 (PN 1k5))
+      (place R24 112395 -116205 back 90 (PN N/C))
+      (place R23 116840 -116205 back 270 (PN 3k3))
+      (place R22 121285 -116205 back 90 (PN 3k3))
+      (place R21 125730 -116205 back 270 (PN 3k3))
+      (place R20 112395 -108585 back 90 (PN 3k3))
+      (place R19 116840 -108585 back 270 (PN 3k3))
+      (place R18 121285 -108585 back 90 (PN 3k3))
+      (place R17 125730 -108585 back 270 (PN 10k))
+      (place R16 112395 -95885 back 90 (PN N/C))
+      (place R15 116840 -95885 back 270 (PN 3k3))
+      (place R14 121285 -95885 back 90 (PN 3k3))
+      (place R13 125730 -95885 back 270 (PN 3k3))
+      (place R12 112395 -88265 back 90 (PN 3k3))
+      (place R11 116840 -88265 back 270 (PN 3k3))
+      (place R10 121285 -88265 back 90 (PN 3k3))
+      (place R9 125730 -88265 back 270 (PN 10k))
+      (place R8 112395 -75565 back 90 (PN N/C))
+      (place R7 116840 -75565 back 270 (PN 3k3))
+      (place R6 121285 -75565 back 90 (PN 3k3))
+      (place R5 125730 -75565 back 270 (PN 3k3))
+      (place R4 112395 -67945 back 90 (PN 3k3))
+      (place R3 116840 -67945 back 270 (PN 3k3))
+      (place R2 121285 -67945 back 90 (PN 3k3))
+      (place R1 125730 -67945 back 270 (PN 10k))
+    )
+    (component "LED Dimmer Footprints:DIP8_dualopamp"
+      (place U3 135890 -114300 back 0 (PN LM358))
+      (place U2 135255 -93980 back 0 (PN LM358))
+      (place U1 135890 -73660 back 0 (PN LM358))
+    )
+    (component "LED Dimmer Footprints:DIP8"
+      (place U4 103505 -76200 back 0 (PN LM555N))
+    )
+    (component "LED Dimmer Footprints:test_pt_alt"
+      (place TP1 180975 -55245 back 180 (PN TEST))
+      (place TP2 176530 -55245 back 180 (PN TEST))
+      (place TP3 172085 -55245 back 180 (PN TEST))
+      (place TP4 180975 -50800 back 180 (PN TEST))
+      (place TP5 176530 -50800 back 180 (PN TEST))
+      (place TP6 172085 -50800 back 180 (PN TEST))
+      (place TP7 152400 -50800 back 180 (PN TEST))
+      (place TP8 152400 -55245 back 180 (PN TEST))
+    )
+  )
+  (library
+    (image "LED Dimmer Footprints:C_Disc"
+      (outline (path signal 150  -1778 1778  4318 1778))
+      (outline (path signal 150  4318 1778  4318 -1778))
+      (outline (path signal 150  4318 -1778  -1778 -1778))
+      (outline (path signal 150  -1778 -1778  -1778 1778))
+      (outline (path signal 120  0 1500  2540 1500))
+      (outline (path signal 120  0 -1500  2540 -1500))
+      (pin Round[A]Pad_1778_um 1 0 0)
+      (pin Round[A]Pad_1778_um 2 2540 0)
+    )
+    (image "LED Dimmer Footprints:LED_D5.0mm-4"
+      (outline (path signal 76.2  3937 4064  -3429 4064))
+      (outline (path signal 76.2  -3429 4064  -3429 -4064))
+      (outline (path signal 76.2  -3429 -4064  3937 -4064))
+      (outline (path signal 76.2  3937 -4064  3937 4064))
+      (outline (path signal 152.4  -3048 -2159  -3048 2159))
+      (outline (path signal 100  2500 0  2377.64 -772.542  2022.54 -1469.46  1469.46 -2022.54
+            772.542 -2377.64  0 -2500  -772.542 -2377.64  -1469.46 -2022.54
+            -2022.54 -1469.46  -2377.64 -772.542  -2500 0  -2377.64 772.542
+            -2022.54 1469.46  -1469.46 2022.54  -772.542 2377.64  0 2500
+            772.542 2377.64  1469.46 2022.54  2022.54 1469.46  2377.64 772.542))
+      (outline (path signal 100  -2500 1469.69  -2500 -1469.69))
+      (pin Rect[A]Pad_1070x1800_um 1 -2286 0)
+      (pin Oval[A]Pad_1070x1800_um 2 -635 0)
+      (pin Oval[A]Pad_1070x1800_um 3 1016 0)
+      (pin Oval[A]Pad_1070x1800_um 4 2667 0)
+    )
+    (image "LED Dimmer Footprints:D_axial"
+      (outline (path signal 101.6  1117.6 355.6  1117.6 939.8))
+      (outline (path signal 101.6  1549.4 660.4  1828.8 660.4))
+      (outline (path signal 101.6  889 660.4  1117.6 660.4))
+      (outline (path signal 101.6  1117.6 660.4  1524 939.8))
+      (outline (path signal 101.6  1524 939.8  1524 381))
+      (outline (path signal 101.6  1524 381  1117.6 660.4))
+      (outline (path signal 101.6  863.6 0  821.332 -266.867  698.667 -507.611  507.611 -698.667
+            266.867 -821.332  0 -863.6  -266.867 -821.332  -507.611 -698.667
+            -698.667 -507.611  -821.332 -266.867  -863.6 0  -821.332 266.867
+            -698.667 507.611  -507.611 698.667  -266.867 821.332  0 863.6
+            266.867 821.332  507.611 698.667  698.667 507.611  821.332 266.867))
+      (outline (path signal 120  1000 0  951.057 -309.017  809.017 -587.785  587.785 -809.017
+            309.017 -951.057  0 -1000  -309.017 -951.057  -587.785 -809.017
+            -809.017 -587.785  -951.057 -309.017  -1000 0  -951.057 309.017
+            -809.017 587.785  -587.785 809.017  -309.017 951.057  0 1000
+            309.017 951.057  587.785 809.017  809.017 587.785  951.057 309.017))
+      (outline (path signal 100  0 0  2540 0))
+      (outline (path signal 120  1000 0  2540 0))
+      (outline (path signal 50  -1150 1150  -1150 -1150))
+      (outline (path signal 50  -1150 -1150  3550 -1150))
+      (outline (path signal 50  3550 -1150  3550 1150))
+      (outline (path signal 50  3550 1150  -1150 1150))
+      (pin Round[A]Pad_1778_um 1 0 0)
+      (pin Round[A]Pad_1778_um 2 2540 0)
+    )
+    (image "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK"
+      (outline (path signal 76.2  7112 6096  -5080 6096))
+      (outline (path signal 76.2  -5080 6096  -5080 -10922))
+      (outline (path signal 76.2  -5080 -10922  7112 -10922))
+      (outline (path signal 76.2  7112 -10922  7112 6096))
+      (outline (path signal 152.4  -4445 2794  -4445 -10668))
+      (outline (path signal 152.4  4445 2794  4445 -10668))
+      (outline (path signal 152.4  -4445 2794  4445 2794))
+      (outline (path signal 152.4  -4445 -10668  4445 -10668))
+      (pin Round[A]Pad_4114.8_um 2 0 -3302)
+      (pin Round[A]Pad_4622.8_um 1 0 3302)
+      (pin Round[A]Pad_4114.8_um 2@1 4597.4 0)
+    )
+    (image "LED Dimmer Footprints:TO-220_Vertical"
+      (outline (path signal 100  -2460 2500  -2460 -1900))
+      (outline (path signal 100  -2460 -1900  7540 -1900))
+      (outline (path signal 100  7540 -1900  7540 2500))
+      (outline (path signal 100  7540 2500  -2460 2500))
+      (outline (path signal 100  -2460 1230  7540 1230))
+      (outline (path signal 100  690 2500  690 1230))
+      (outline (path signal 100  4390 2500  4390 1230))
+      (outline (path signal 120  -2580 2620  7660 2620))
+      (outline (path signal 120  -2580 -2021  7660 -2021))
+      (outline (path signal 120  -2580 2620  -2580 -2021))
+      (outline (path signal 120  7660 2620  7660 -2021))
+      (outline (path signal 120  -2580 1110  7660 1110))
+      (outline (path signal 120  690 2620  690 1110))
+      (outline (path signal 120  4391 2620  4391 1110))
+      (outline (path signal 50  -2710 2750  -2710 -2160))
+      (outline (path signal 50  -2710 -2160  7790 -2160))
+      (outline (path signal 50  7790 -2160  7790 2750))
+      (outline (path signal 50  7790 2750  -2710 2750))
+      (pin Rect[A]Pad_1800x1800_um 1 0 0)
+      (pin Oval[A]Pad_1800x1800_um 2 2540 0)
+      (pin Oval[A]Pad_1800x1800_um 3 5080 0)
+    )
+    (image "LED Dimmer Footprints:TO-92_Molded_Wide"
+      (outline (path signal 120  740 -1850  4340 -1850))
+      (outline (path signal 100  800 -1750  4300 -1750))
+      (outline (path signal 50  -1010 3550  6090 3550))
+      (outline (path signal 50  -1010 3550  -1010 -2010))
+      (outline (path signal 50  6090 -2010  6090 3550))
+      (outline (path signal 50  6090 -2010  -1010 -2010))
+      (pin Round[A]Pad_1524_um 2 2540 2540)
+      (pin Round[A]Pad_1524_um 3 5080 0)
+      (pin Round[A]Pad_1524_um 1 0 0)
+    )
+    (image "LED Dimmer Footprints:POT_UM_296RE"
+      (outline (path signal 76.2  7874 9906  7874 16891))
+      (outline (path signal 76.2  7874 16891  -7874 16891))
+      (outline (path signal 76.2  -7874 16891  -7874 -1778))
+      (outline (path signal 76.2  -7874 -1778  7874 -1778))
+      (outline (path signal 76.2  7874 -1778  7874 9906))
+      (outline (path signal 152.4  6248.4 3606.8  -6248.4 3606.8))
+      (outline (path signal 152.4  -6248.4 16408.4  -6248.4 3606.8))
+      (outline (path signal 152.4  6248.4 16408.4  6248.4 3606.8))
+      (outline (path signal 152.4  6248.4 16408.4  -6248.4 16408.4))
+      (outline (path signal 152.4  2895.6 10007.6  2753.88 9112.81  2342.59 8305.61  1701.99 7665.01
+            894.79 7253.72  0 7112  -894.79 7253.72  -1701.99 7665.01  -2342.59 8305.61
+            -2753.88 9112.81  -2895.6 10007.6  -2753.88 10902.4  -2342.59 11709.6
+            -1701.99 12350.2  -894.79 12761.5  0 12903.2  894.79 12761.5
+            1701.99 12350.2  2342.59 11709.6  2753.88 10902.4))
+      (pin Round[A]Pad_2362.2_um 2 0 0)
+      (pin Round[A]Pad_2362.2_um 1 -3759.2 0)
+      (pin Round[A]Pad_2362.2_um 3 3759.2 0)
+      (pin Round[A]Pad_3860.8_um @1 -5511.8 10007.6)
+      (pin Round[A]Pad_3860.8_um @2 5511.8 10007.6)
+    )
+    (image "LED Dimmer Footprints:SW_SPDT_PCBPM"
+      (outline (path signal 152.4  5588 -3429  5588 3302))
+      (outline (path signal 152.4  5588 3302  5588 3429))
+      (outline (path signal 152.4  6350 3429  7239 3429))
+      (outline (path signal 152.4  7239 3429  7239 -3429))
+      (outline (path signal 152.4  7239 -3429  6350 -3429))
+      (outline (path signal 76.2  6604 -3556  6731 -3556))
+      (outline (path signal 76.2  6731 -3556  6731 3556))
+      (outline (path signal 76.2  6731 3556  6604 3556))
+      (outline (path signal 76.2  -6731 0  -6731 3556))
+      (outline (path signal 76.2  -6731 3556  6604 3556))
+      (outline (path signal 76.2  6604 -3556  -6731 -3556))
+      (outline (path signal 76.2  -6731 -3556  -6731 0))
+      (outline (path signal 152.4  -6350 3429  -6350 -3429))
+      (outline (path signal 152.4  6350 3429  6350 -3429))
+      (outline (path signal 152.4  -6350 -3429  6350 -3429))
+      (outline (path signal 152.4  -6350 3429  6350 3429))
+      (pin Round[A]Pad_3683_um 1 -4699 0)
+      (pin Round[A]Pad_3683_um 2 0 0)
+      (pin Round[A]Pad_3683_um 3 4699 0)
+    )
+    (image "LED Dimmer Footprints:R_Axial"
+      (outline (path signal 50.8  -2857.5 1143  -2857.5 -1143))
+      (outline (path signal 50.8  2857.5 1143  2857.5 -1143))
+      (outline (path signal 101.6  -850.9 0  -893.168 -266.867  -1015.83 -507.611  -1206.89 -698.667
+            -1447.63 -821.332  -1714.5 -863.6  -1981.37 -821.332  -2222.11 -698.667
+            -2413.17 -507.611  -2535.83 -266.867  -2578.1 0  -2535.83 266.867
+            -2413.17 507.611  -2222.11 698.667  -1981.37 821.332  -1714.5 863.6
+            -1447.63 821.332  -1206.89 698.667  -1015.83 507.611  -893.168 266.867))
+      (outline (path signal 120  -714.5 0  -763.443 -309.017  -905.483 -587.785  -1126.71 -809.017
+            -1405.48 -951.057  -1714.5 -1000  -2023.52 -951.057  -2302.28 -809.017
+            -2523.52 -587.785  -2665.56 -309.017  -2714.5 0  -2665.56 309.017
+            -2523.52 587.785  -2302.28 809.017  -2023.52 951.057  -1714.5 1000
+            -1405.48 951.057  -1126.71 809.017  -905.483 587.785  -763.443 309.017))
+      (outline (path signal 100  -1714.5 0  825.5 0))
+      (outline (path signal 50.8  -2857.5 -1143  2857.5 -1143))
+      (outline (path signal 50.8  2857.5 1143  -2857.5 1143))
+      (pin Round[A]Pad_1778_um 1 -1714.5 0)
+      (pin Round[A]Pad_1778_um 2 1714.5 0)
+    )
+    (image "LED Dimmer Footprints:DIP8_dualopamp"
+      (outline (path signal 152.4  -2032 -3810  -1524 -3810))
+      (outline (path signal 152.4  1778 4064  1778 3556))
+      (outline (path signal 152.4  1524 3810  2032 3810))
+      (outline (path signal 152.4  -1270 3810  -2794 3810))
+      (outline (path signal 152.4  -1270 2794  -1270 3810))
+      (outline (path signal 152.4  -2032 1524  -1270 2794))
+      (outline (path signal 152.4  -1778 762  -3048 762))
+      (outline (path signal 152.4  -1778 1524  -1778 762))
+      (outline (path signal 152.4  -2032 1524  -762 1524))
+      (outline (path signal 152.4  -762 1524  -508 1524))
+      (outline (path signal 152.4  -508 1524  -1270 2794))
+      (outline (path signal 152.4  -762 -1270  -762 1524))
+      (outline (path signal 152.4  -2794 -1270  -762 -1270))
+      (outline (path signal 152.4  2540 -1524  2794 -1524))
+      (outline (path signal 152.4  1270 1270  2794 1270))
+      (outline (path signal 152.4  2540 -1524  1778 -1524))
+      (outline (path signal 152.4  1778 -1524  1778 -762))
+      (outline (path signal 152.4  2540 -3810  762 -3810))
+      (outline (path signal 152.4  762 -3810  762 -762))
+      (outline (path signal 152.4  1270 1270  1270 508))
+      (outline (path signal 152.4  1270 508  508 -762))
+      (outline (path signal 152.4  508 -762  2032 -762))
+      (outline (path signal 152.4  2032 -762  1270 508))
+      (outline (path signal 100  -2175 5080  3175 5080))
+      (outline (path signal 100  3175 5080  3175 -5080))
+      (outline (path signal 100  3175 -5080  -3175 -5080))
+      (outline (path signal 100  -3175 -5080  -3175 4080))
+      (outline (path signal 100  -3175 4080  -2175 5080))
+      (outline (path signal 120  -1000 5200  -2370 5200))
+      (outline (path signal 120  -2370 5200  -2370 -5200))
+      (outline (path signal 120  -2370 -5200  2370 -5200))
+      (outline (path signal 120  2370 -5200  2370 5200))
+      (outline (path signal 120  2370 5200  1000 5200))
+      (outline (path signal 50  -5310 5410  -5310 -5390))
+      (outline (path signal 50  -5310 -5390  5290 -5390))
+      (outline (path signal 50  5290 -5390  5290 5410))
+      (outline (path signal 50  5290 5410  -5310 5410))
+      (pin Rect[A]Pad_2400x1600_um 1 -3810 3810)
+      (pin Oval[A]Pad_2400x1600_um 5 3810 -3810)
+      (pin Oval[A]Pad_2400x1600_um 2 -3810 1270)
+      (pin Oval[A]Pad_2400x1600_um 6 3810 -1270)
+      (pin Oval[A]Pad_2400x1600_um 3 -3810 -1270)
+      (pin Oval[A]Pad_2400x1600_um 7 3810 1270)
+      (pin Oval[A]Pad_2400x1600_um 4 -3810 -3810)
+      (pin Oval[A]Pad_2400x1600_um 8 3810 3810)
+    )
+    (image "LED Dimmer Footprints:DIP8"
+      (outline (path signal 100  -2175 5080  3175 5080))
+      (outline (path signal 100  3175 5080  3175 -5080))
+      (outline (path signal 100  3175 -5080  -3175 -5080))
+      (outline (path signal 100  -3175 -5080  -3175 4080))
+      (outline (path signal 100  -3175 4080  -2175 5080))
+      (outline (path signal 120  -1000 5200  -2370 5200))
+      (outline (path signal 120  -2370 5200  -2370 -5200))
+      (outline (path signal 120  -2370 -5200  2370 -5200))
+      (outline (path signal 120  2370 -5200  2370 5200))
+      (outline (path signal 120  2370 5200  1000 5200))
+      (outline (path signal 50  -5310 5410  -5310 -5390))
+      (outline (path signal 50  -5310 -5390  5290 -5390))
+      (outline (path signal 50  5290 -5390  5290 5410))
+      (outline (path signal 50  5290 5410  -5310 5410))
+      (pin Rect[A]Pad_2400x1600_um 1 -3810 3810)
+      (pin Oval[A]Pad_2400x1600_um 5 3810 -3810)
+      (pin Oval[A]Pad_2400x1600_um 2 -3810 1270)
+      (pin Oval[A]Pad_2400x1600_um 6 3810 -1270)
+      (pin Oval[A]Pad_2400x1600_um 3 -3810 -1270)
+      (pin Oval[A]Pad_2400x1600_um 7 3810 1270)
+      (pin Oval[A]Pad_2400x1600_um 4 -3810 -3810)
+      (pin Oval[A]Pad_2400x1600_um 8 3810 3810)
+    )
+    (image "LED Dimmer Footprints:test_pt_alt"
+      (outline (path signal 50  1750 0  1664.35 -540.78  1415.78 -1028.62  1028.62 -1415.78
+            540.78 -1664.35  0 -1750  -540.78 -1664.35  -1028.62 -1415.78
+            -1415.78 -1028.62  -1664.35 -540.78  -1750 0  -1664.35 540.78
+            -1415.78 1028.62  -1028.62 1415.78  -540.78 1664.35  0 1750
+            540.78 1664.35  1028.62 1415.78  1415.78 1028.62  1664.35 540.78))
+      (pin Round[T]Pad_3000_um 1 0 0)
+      (pin Round[A]Pad_1016_um 1@1 0 0)
+    )
+    (padstack Round[A]Pad_1016_um
+      (shape (circle F.Cu 1016))
+      (shape (circle B.Cu 1016))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle F.Cu 1778))
+      (shape (circle B.Cu 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2362.2_um
+      (shape (circle F.Cu 2362.2))
+      (shape (circle B.Cu 2362.2))
+      (attach off)
+    )
+    (padstack Round[T]Pad_3000_um
+      (shape (circle F.Cu 3000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3683_um
+      (shape (circle F.Cu 3683))
+      (shape (circle B.Cu 3683))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3860.8_um
+      (shape (circle F.Cu 3860.8))
+      (shape (circle B.Cu 3860.8))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4114.8_um
+      (shape (circle F.Cu 4114.8))
+      (shape (circle B.Cu 4114.8))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4622.8_um
+      (shape (circle F.Cu 4622.8))
+      (shape (circle B.Cu 4622.8))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1070x1800_um
+      (shape (path F.Cu 1070  0 -365  0 365))
+      (shape (path B.Cu 1070  0 -365  0 365))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2400x1600_um
+      (shape (path F.Cu 1600  -400 0  400 0))
+      (shape (path B.Cu 1600  -400 0  400 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1800x1800_um
+      (shape (path F.Cu 1800  0 0  0 0))
+      (shape (path B.Cu 1800  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2400x1600_um
+      (shape (rect F.Cu -1200 -800 1200 800))
+      (shape (rect B.Cu -1200 -800 1200 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1070x1800_um
+      (shape (rect F.Cu -535 -900 535 900))
+      (shape (rect B.Cu -535 -900 535 900))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1800x1800_um
+      (shape (rect F.Cu -900 -900 900 900))
+      (shape (rect B.Cu -900 -900 900 900))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:406.4_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net LAMBDA
+      (pins C1-1 Q4-2 Q5-1 R36-2 U3-5 U2-5 U1-5 TP7-1 TP7-1@1)
+    )
+    (net GND
+      (pins C1-2 P4-2 P4-2@1 Q1-3 Q2-3 Q3-3 Q4-3 Q6-1 RV1-3 R40-2 R24-2 R16-2 R8-2
+        U3-4 U2-4 U1-4 U4-1)
+    )
+    (net LEDR
+      (pins D1-1 R31-2 TP4-1 TP4-1@1)
+    )
+    (net +12V
+      (pins D1-2 P1-1 P2-1 P3-1 P4-1 RV1-1 SW1-2 SW2-2 SW3-2 SW4-2 SW5-2 SW6-2 SW7-2
+        SW8-2 SW9-2 SW10-2 SW11-2 SW12-2 R39-1 R37-1 R34-1 U3-8 U2-8 U1-8 U4-4 U4-8)
+    )
+    (net LEDB
+      (pins D1-3 R33-2 TP6-1 TP6-1@1)
+    )
+    (net LEDG
+      (pins D1-4 R32-2 TP5-1 TP5-1@1)
+    )
+    (net "Net-(D2-Pad1)"
+      (pins D2-1 Q6-3 R40-1 R39-2)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins D2-2 Q5-2)
+    )
+    (net "Net-(P1-Pad2)"
+      (pins P1-2 P1-2@1 Q1-2 R31-1)
+    )
+    (net "Net-(P2-Pad2)"
+      (pins P2-2 P2-2@1 Q2-2 R32-1)
+    )
+    (net "Net-(P3-Pad2)"
+      (pins P3-2 P3-2@1 Q3-2 R33-1)
+    )
+    (net "Net-(Q1-Pad1)"
+      (pins Q1-1 R28-1)
+    )
+    (net "Net-(Q2-Pad1)"
+      (pins Q2-1 R29-1)
+    )
+    (net "Net-(Q3-Pad1)"
+      (pins Q3-1 R30-1)
+    )
+    (net "Net-(Q4-Pad1)"
+      (pins Q4-1 R36-1 R35-2)
+    )
+    (net "Net-(Q5-Pad3)"
+      (pins Q5-3 Q6-2)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins SW1-1 R1-1)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins R2-2 R1-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R25-2 R8-1 R7-1 R6-1 R5-1 R4-1 R2-1 U1-2)
+    )
+    (net "Net-(R3-Pad1)"
+      (pins R4-2 R3-1)
+    )
+    (net "Net-(R3-Pad2)"
+      (pins SW2-1 R3-2)
+    )
+    (net "Net-(R5-Pad2)"
+      (pins SW3-1 R5-2)
+    )
+    (net "Net-(R6-Pad2)"
+      (pins SW4-1 R7-2 R6-2)
+    )
+    (net "Net-(R9-Pad1)"
+      (pins SW5-1 R9-1)
+    )
+    (net "Net-(R10-Pad2)"
+      (pins R10-2 R9-2)
+    )
+    (net "Net-(R10-Pad1)"
+      (pins R26-2 R16-1 R15-1 R14-1 R13-1 R12-1 R10-1 U2-2)
+    )
+    (net "Net-(R11-Pad1)"
+      (pins R12-2 R11-1)
+    )
+    (net "Net-(R11-Pad2)"
+      (pins SW6-1 R11-2)
+    )
+    (net "Net-(R13-Pad2)"
+      (pins SW7-1 R13-2)
+    )
+    (net "Net-(R14-Pad2)"
+      (pins SW8-1 R15-2 R14-2)
+    )
+    (net "Net-(R17-Pad1)"
+      (pins SW9-1 R17-1)
+    )
+    (net "Net-(R17-Pad2)"
+      (pins R18-2 R17-2)
+    )
+    (net "Net-(R18-Pad1)"
+      (pins R27-2 R24-1 R23-1 R22-1 R21-1 R20-1 R18-1 U3-2)
+    )
+    (net "Net-(R19-Pad1)"
+      (pins R20-2 R19-1)
+    )
+    (net "Net-(R19-Pad2)"
+      (pins SW10-1 R19-2)
+    )
+    (net "Net-(R21-Pad2)"
+      (pins SW11-1 R21-2)
+    )
+    (net "Net-(R22-Pad2)"
+      (pins SW12-1 R23-2 R22-2)
+    )
+    (net VR
+      (pins R25-1 U1-1 U1-6 TP1-1 TP1-1@1)
+    )
+    (net VG
+      (pins R26-1 U2-1 U2-6 TP2-1 TP2-1@1)
+    )
+    (net VB
+      (pins R27-1 U3-1 U3-6 TP3-1 TP3-1@1)
+    )
+    (net "Net-(R28-Pad2)"
+      (pins R28-2 U1-7)
+    )
+    (net "Net-(R29-Pad2)"
+      (pins R29-2 U2-7)
+    )
+    (net "Net-(R30-Pad2)"
+      (pins R30-2 U3-7)
+    )
+    (net "Net-(R34-Pad2)"
+      (pins R35-1 R34-2)
+    )
+    (net +6V
+      (pins R38-1 R37-2 U3-3 U2-3 U1-3 TP8-1 TP8-1@1)
+    )
+    (net "Net-(R38-Pad2)"
+      (pins R38-2 U4-3)
+    )
+    (net "Net-(RV1-Pad2)"
+      (pins RV1-2 U4-2 U4-6)
+    )
+    (net "Net-(SW1-Pad3)"
+      (pins SW1-3)
+    )
+    (net "Net-(SW2-Pad3)"
+      (pins SW2-3)
+    )
+    (net "Net-(SW3-Pad3)"
+      (pins SW3-3)
+    )
+    (net "Net-(SW4-Pad3)"
+      (pins SW4-3)
+    )
+    (net "Net-(SW5-Pad3)"
+      (pins SW5-3)
+    )
+    (net "Net-(SW6-Pad3)"
+      (pins SW6-3)
+    )
+    (net "Net-(SW7-Pad3)"
+      (pins SW7-3)
+    )
+    (net "Net-(SW8-Pad3)"
+      (pins SW8-3)
+    )
+    (net "Net-(SW9-Pad3)"
+      (pins SW9-3)
+    )
+    (net "Net-(SW10-Pad3)"
+      (pins SW10-3)
+    )
+    (net "Net-(SW11-Pad3)"
+      (pins SW11-3)
+    )
+    (net "Net-(SW12-Pad3)"
+      (pins SW12-3)
+    )
+    (net "Net-(U4-Pad5)"
+      (pins U4-5)
+    )
+    (net "Net-(U4-Pad7)"
+      (pins U4-7)
+    )
+    (class kicad_default "" +6V LAMBDA LEDB LEDG LEDR "Net-(D2-Pad1)" "Net-(D2-Pad2)"
+      "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q5-Pad3)"
+      "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R10-Pad1)" "Net-(R10-Pad2)" "Net-(R11-Pad1)"
+      "Net-(R11-Pad2)" "Net-(R13-Pad2)" "Net-(R14-Pad2)" "Net-(R17-Pad1)"
+      "Net-(R17-Pad2)" "Net-(R18-Pad1)" "Net-(R19-Pad1)" "Net-(R19-Pad2)"
+      "Net-(R2-Pad1)" "Net-(R21-Pad2)" "Net-(R22-Pad2)" "Net-(R28-Pad2)" "Net-(R29-Pad2)"
+      "Net-(R3-Pad1)" "Net-(R3-Pad2)" "Net-(R30-Pad2)" "Net-(R34-Pad2)" "Net-(R38-Pad2)"
+      "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(R9-Pad1)" "Net-(RV1-Pad2)" "Net-(SW1-Pad3)"
+      "Net-(SW10-Pad3)" "Net-(SW11-Pad3)" "Net-(SW12-Pad3)" "Net-(SW2-Pad3)"
+      "Net-(SW3-Pad3)" "Net-(SW4-Pad3)" "Net-(SW5-Pad3)" "Net-(SW6-Pad3)"
+      "Net-(SW7-Pad3)" "Net-(SW8-Pad3)" "Net-(SW9-Pad3)" "Net-(U4-Pad5)" "Net-(U4-Pad7)"
+      VB VG VR
+      (circuit
+        (use_via Via[0-1]_600:406.4_um)
+      )
+      (rule
+        (width 254)
+        (clearance 457.3)
+      )
+    )
+    (class PWR +12V GND "Net-(P1-Pad2)" "Net-(P2-Pad2)" "Net-(P3-Pad2)"
+      (circuit
+        (use_via Via[0-1]_600:406.4_um)
+      )
+      (rule
+        (width 508)
+        (clearance 457.3)
+      )
+    )
+  )
+  (wiring
+  )
+)
