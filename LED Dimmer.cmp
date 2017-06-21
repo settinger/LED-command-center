@@ -1,0 +1,627 @@
+Cmp-Mod V01 Created by PcbNew   date = 6/21/2017 2:47:32 PM
+
+BeginCmp
+TimeStamp = 594AB95B
+Path = /5926BAFD
+Reference = C1;
+ValeurCmp = 10n;
+IdModule  = led_dimmer_footprints:C_Disc;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB96A
+Path = /5929F906
+Reference = D1;
+ValeurCmp = LED_RABG;
+IdModule  = led_dimmer_footprints:LED_D5.0mm-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB97B
+Path = /5926C7E0
+Reference = D2;
+ValeurCmp = 1N4148;
+IdModule  = led_dimmer_footprints:D_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB9C6
+Path = /5929A26B
+Reference = Q1;
+ValeurCmp = TIP31C;
+IdModule  = led_dimmer_footprints:TO-220_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB9DF
+Path = /592A62D7
+Reference = Q2;
+ValeurCmp = TIP31C;
+IdModule  = led_dimmer_footprints:TO-220_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB9F8
+Path = /592A68FF
+Reference = Q3;
+ValeurCmp = TIP31C;
+IdModule  = led_dimmer_footprints:TO-220_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA4D
+Path = /59420DF7
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA59
+Path = /5929069A
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA65
+Path = /59290813
+Reference = R3;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA71
+Path = /5929D28C
+Reference = R4;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA89
+Path = /5929CFD6
+Reference = R6;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA95
+Path = /59290BF2
+Reference = R7;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAA1
+Path = /59290C82
+Reference = R8;
+ValeurCmp = N/C;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAAD
+Path = /59422BFB
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAB9
+Path = /59422BF5
+Reference = R10;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAC5
+Path = /5929EA8E
+Reference = R11;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAD1
+Path = /5929EAB9
+Reference = R12;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABADD
+Path = /5929EA94
+Reference = R13;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAE9
+Path = /5929EAB3
+Reference = R14;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABAF5
+Path = /5929EA9A
+Reference = R15;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB01
+Path = /5929EAA0
+Reference = R16;
+ValeurCmp = N/C;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB0D
+Path = /59423482
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB19
+Path = /5942347C
+Reference = R18;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB25
+Path = /592A05AE
+Reference = R19;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB31
+Path = /592A05CE
+Reference = R20;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB3D
+Path = /592A05B4
+Reference = R21;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB49
+Path = /592A05C8
+Reference = R22;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB55
+Path = /592A05BA
+Reference = R23;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB61
+Path = /592A68E3
+Reference = R24;
+ValeurCmp = N/C;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB6D
+Path = /592951C3
+Reference = R25;
+ValeurCmp = 1k5;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB79
+Path = /592A62C5
+Reference = R26;
+ValeurCmp = 1k5;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB85
+Path = /592A68ED
+Reference = R27;
+ValeurCmp = 1k5;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB91
+Path = /59299BA7
+Reference = R28;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABB9D
+Path = /592A62D1
+Reference = R29;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBA9
+Path = /592A68F9
+Reference = R30;
+ValeurCmp = 10k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBB5
+Path = /5929A2E8
+Reference = R31;
+ValeurCmp = 330;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBC1
+Path = /592A62DD
+Reference = R32;
+ValeurCmp = 360;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBCD
+Path = /592A6905
+Reference = R33;
+ValeurCmp = 300;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBD9
+Path = /5929B052
+Reference = R34;
+ValeurCmp = 33k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBE5
+Path = /5926B7C4
+Reference = R35;
+ValeurCmp = 33k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBF1
+Path = /5926BAA1
+Reference = R36;
+ValeurCmp = 43k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABBFD
+Path = /59267607
+Reference = R37;
+ValeurCmp = 100k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC09
+Path = /59267776
+Reference = R38;
+ValeurCmp = 100k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC15
+Path = /5926BA26
+Reference = R39;
+ValeurCmp = 1k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC21
+Path = /5926C629
+Reference = R40;
+ValeurCmp = 1k;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC2D
+Path = /5928F203
+Reference = RV1;
+ValeurCmp = 500K;
+IdModule  = led_dimmer_footprints:POT_UM_296RE;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC3F
+Path = /59428968
+Reference = SW1;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC57
+Path = /59428B8B
+Reference = SW2;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC6F
+Path = /59428C7E
+Reference = SW3;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC87
+Path = /59428D7A
+Reference = SW4;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABC9F
+Path = /5942A24A
+Reference = SW5;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABCB7
+Path = /5942A250
+Reference = SW6;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABCCF
+Path = /5942A256
+Reference = SW7;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABCE7
+Path = /5942A25C
+Reference = SW8;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABCFF
+Path = /5942BC16
+Reference = SW9;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD17
+Path = /5942BC1C
+Reference = SW10;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD2F
+Path = /5942BC22
+Reference = SW11;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD47
+Path = /5942BC28
+Reference = SW12;
+ValeurCmp = SW_SPDT;
+IdModule  = led_dimmer_footprints:SW_SPDT_PCBPM;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD5F
+Path = /59426FC3
+Reference = TP1;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD65
+Path = /59426EB4
+Reference = TP2;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD6B
+Path = /59426E1F
+Reference = TP3;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD71
+Path = /59427B12
+Reference = TP4;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD77
+Path = /59427BD7
+Reference = TP5;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD7D
+Path = /59427C78
+Reference = TP6;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD83
+Path = /59424194
+Reference = TP7;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD89
+Path = /594242E9
+Reference = TP8;
+ValeurCmp = TEST;
+IdModule  = led_dimmer_footprints:test_pt_alt;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABD8F
+Path = /5928F733
+Reference = U1;
+ValeurCmp = LM358;
+IdModule  = led_dimmer_footprints:DIP8_dualopamp;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABDC1
+Path = /592A627F
+Reference = U2;
+ValeurCmp = LM358;
+IdModule  = led_dimmer_footprints:DIP8_dualopamp;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABDF3
+Path = /592A68A7
+Reference = U3;
+ValeurCmp = LM358;
+IdModule  = led_dimmer_footprints:DIP8_dualopamp;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA39
+Path = /5926BCC4
+Reference = Q6;
+ValeurCmp = Q_NPN_EBC;
+IdModule  = led_dimmer_footprints:TO-92_Molded_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA25
+Path = /5926C4F5
+Reference = Q5;
+ValeurCmp = Q_PNP_EBC;
+IdModule  = led_dimmer_footprints:TO-92_Molded_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA11
+Path = /5926BEA1
+Reference = Q4;
+ValeurCmp = Q_PNP_EBC;
+IdModule  = led_dimmer_footprints:TO-92_Molded_Wide;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABA7D
+Path = /5929089F
+Reference = R5;
+ValeurCmp = 3k3;
+IdModule  = led_dimmer_footprints:R_Axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 594ABE25
+Path = /5928CD87
+Reference = U4;
+ValeurCmp = LM555N;
+IdModule  = led_dimmer_footprints:DIP8;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB9B8
+Path = /59265FE0
+Reference = P4;
+ValeurCmp = PWR;
+IdModule  = led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB9AA
+Path = /592A68A1
+Reference = P3;
+ValeurCmp = Blue Load;
+IdModule  = led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB99C
+Path = /592A6279
+Reference = P2;
+ValeurCmp = Green Load;
+IdModule  = led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = 594AB98E
+Path = /59266BEB
+Reference = P1;
+ValeurCmp = Red Load;
+IdModule  = led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK;
+EndCmp
+
+EndListe

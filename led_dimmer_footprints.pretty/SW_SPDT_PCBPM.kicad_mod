@@ -30,4 +30,9 @@
   (pad 1 thru_hole circle (at -4.699 0) (size 3.683 3.683) (drill 2.6162) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 3.683 3.683) (drill 2.6162) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.699 0) (size 3.683 3.683) (drill 2.6162) (layers *.Cu *.Mask))
+  (model C:/Users/SamE/Documents/KiCad/LED-command-center/WRLs/switch_100SP1T1B1M1QEH.wrl
+    (at (xyz 0 0 -0.21))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
+  )
 )
