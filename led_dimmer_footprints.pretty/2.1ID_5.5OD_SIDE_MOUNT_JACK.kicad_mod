@@ -16,4 +16,9 @@
   (pad 2 thru_hole circle (at 0 3.302) (size 4.1148 4.1148) (drill 3.048) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 -3.302) (size 4.6228 4.6228) (drill 3.556) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 4.5974 0) (size 4.1148 4.1148) (drill 3.048) (layers *.Cu *.Mask))
+  (model C:/Users/SamE/Documents/KiCad/LED-command-center/WRLs/2_1_ID_5_5_OD_plug.wrl
+    (at (xyz 0 -0.29 0.21))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
+  )
 )
