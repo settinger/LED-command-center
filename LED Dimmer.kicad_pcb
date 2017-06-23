@@ -3,7 +3,7 @@
   (general
     (links 144)
     (no_connects 0)
-    (area 87.579999 46.939999 205.790001 121.970001)
+    (area 87.007699 46.5678 206.362301 138.2302)
     (thickness 1.6)
     (drawings 17)
     (tracks 525)
@@ -58,8 +58,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 3.429 3.429)
-    (pad_drill 3.429)
+    (pad_size 3.2004 3.2004)
+    (pad_drill 3.2004)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -232,7 +232,7 @@
     (add_net "Net-(P3-Pad2)")
   )
 
-  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D5E14) (tstamp 59558ED2)
+  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D999D) (tstamp 59558ED2)
     (at 108.712 136.398)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -240,10 +240,10 @@
     (fp_text value Mounting_Hole (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at -2.032 -19.05) (size 3.429 3.429) (drill 3.429) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.032 -19.05) (size 3.2004 3.2004) (drill 3.2004) (layers *.Cu *.Mask))
   )
 
-  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D5D8F) (tstamp 59558EA5)
+  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D99A4) (tstamp 59558EA5)
     (at 187.706 128.016)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -251,10 +251,10 @@
     (fp_text value Mounting_Hole (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at -1.524 -10.668) (size 3.429 3.429) (drill 3.429) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.524 -10.668) (size 3.2004 3.2004) (drill 3.2004) (layers *.Cu *.Mask))
   )
 
-  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D5D18) (tstamp 59558E95)
+  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D99AD) (tstamp 59558E95)
     (at 186.182 52.578)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -262,7 +262,7 @@
     (fp_text value Mounting_Hole (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0.508 -1.016) (size 3.429 3.429) (drill 3.429) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0.508 -1.016) (size 3.2004 3.2004) (drill 3.2004) (layers *.Cu *.Mask))
   )
 
   (module led_dimmer_footprints:C_Disc (layer B.Cu) (tedit 594AA5FD) (tstamp 594AB95B)
@@ -2901,7 +2901,7 @@
     )
   )
 
-  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D5B9D) (tstamp 59558E86)
+  (module led_dimmer_footprints:Mounting_Hole (layer F.Cu) (tedit 594D995C) (tstamp 59558E86)
     (at 106.68 51.562)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2909,7 +2909,7 @@
     (fp_text value Mounting_Hole (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 3.429 3.429) (drill 3.429) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2004 3.2004) (drill 3.2004) (layers *.Cu *.Mask))
   )
 
   (gr_text RABG (at 101.092 67.564) (layer F.SilkS)
