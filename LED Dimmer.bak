@@ -32,7 +32,7 @@ U 1 1 59265FE0
 P 8250 5500
 F 0 "P4" H 8250 5650 50  0000 C CNN
 F 1 "PWR" V 8350 5500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 8250 5500 50  0001 C CNN
+F 2 "led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 8250 5500 50  0001 C CNN
 F 3 "" H 8250 5500 50  0000 C CNN
 	1    8250 5500
 	0    1    1    0   
@@ -47,7 +47,7 @@ U 1 1 59266BEB
 P 6850 1500
 F 0 "P1" H 6850 1650 50  0000 C CNN
 F 1 "Red Load" V 6950 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 1500 50  0001 C CNN
+F 2 "led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 1500 50  0001 C CNN
 F 3 "" H 6850 1500 50  0000 C CNN
 	1    6850 1500
 	1    0    0    -1  
@@ -66,7 +66,7 @@ U 1 1 5926B7C4
 P 9400 1750
 F 0 "R35" V 9480 1750 50  0000 C CNN
 F 1 "33k" V 9400 1750 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 9330 1750 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 9330 1750 50  0001 C CNN
 F 3 "" H 9400 1750 50  0000 C CNN
 	1    9400 1750
 	1    0    0    -1  
@@ -77,7 +77,7 @@ U 1 1 5926BA26
 P 10800 1800
 F 0 "R39" V 10880 1800 50  0000 C CNN
 F 1 "1k" V 10800 1800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 10730 1800 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 10730 1800 50  0001 C CNN
 F 3 "" H 10800 1800 50  0000 C CNN
 	1    10800 1800
 	1    0    0    -1  
@@ -88,7 +88,7 @@ U 1 1 5926BAA1
 P 9400 2150
 F 0 "R36" V 9480 2150 50  0000 C CNN
 F 1 "43k" V 9400 2150 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 9330 2150 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 9330 2150 50  0001 C CNN
 F 3 "" H 9400 2150 50  0000 C CNN
 	1    9400 2150
 	1    0    0    -1  
@@ -99,7 +99,7 @@ U 1 1 5926BAFD
 P 9000 2600
 F 0 "C1" H 9025 2700 50  0000 L CNN
 F 1 "10n" H 9025 2500 50  0000 L CNN
-F 2 "LED Dimmer Footprints:C_Disc" H 9038 2450 50  0001 C CNN
+F 2 "led_dimmer_footprints:C_Disc" H 9038 2450 50  0001 C CNN
 F 3 "" H 9000 2600 50  0000 C CNN
 	1    9000 2600
 	1    0    0    -1  
@@ -110,7 +110,7 @@ U 1 1 5926BCC4
 P 10100 2950
 F 0 "Q6" H 10400 3000 50  0000 R CNN
 F 1 "Q_NPN_EBC" H 10700 2900 50  0001 R CNN
-F 2 "LED Dimmer Footprints:TO-92_Molded_Wide" H 10300 3050 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-92_Molded_Wide" H 10300 3050 50  0001 C CNN
 F 3 "" H 10100 2950 50  0000 C CNN
 	1    10100 2950
 	1    0    0    -1  
@@ -121,7 +121,7 @@ U 1 1 5926BEA1
 P 8650 2400
 F 0 "Q4" H 8950 2450 50  0000 R CNN
 F 1 "Q_PNP_EBC" H 9250 2350 50  0001 R CNN
-F 2 "LED Dimmer Footprints:TO-92_Molded_Wide" H 8850 2500 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-92_Molded_Wide" H 8850 2500 50  0001 C CNN
 F 3 "" H 8650 2400 50  0000 C CNN
 	1    8650 2400
 	-1   0    0    1   
@@ -132,7 +132,7 @@ U 1 1 5926C4F5
 P 9500 2650
 F 0 "Q5" H 9800 2700 50  0000 R CNN
 F 1 "Q_PNP_EBC" H 10100 2600 50  0001 R CNN
-F 2 "LED Dimmer Footprints:TO-92_Molded_Wide" H 9700 2750 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-92_Molded_Wide" H 9700 2750 50  0001 C CNN
 F 3 "" H 9500 2650 50  0000 C CNN
 	1    9500 2650
 	-1   0    0    1   
@@ -143,7 +143,7 @@ U 1 1 5926C629
 P 10800 2950
 F 0 "R40" V 10880 2950 50  0000 C CNN
 F 1 "1k" V 10800 2950 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 10730 2950 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 10730 2950 50  0001 C CNN
 F 3 "" H 10800 2950 50  0000 C CNN
 	1    10800 2950
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 5926C7E0
 P 9950 2650
 F 0 "D2" H 9950 2750 50  0000 C CNN
 F 1 "1N4148" H 9950 2550 50  0000 C CNN
-F 2 "LED Dimmer Footprints:D_axial" H 9950 2650 50  0001 C CNN
+F 2 "led_dimmer_footprints:D_axial" H 9950 2650 50  0001 C CNN
 F 3 "" H 9950 2650 50  0000 C CNN
 	1    9950 2650
 	-1   0    0    1   
@@ -173,7 +173,7 @@ U 1 1 5928CD87
 P 9900 5550
 F 0 "U4" H 9500 5900 50  0000 L CNN
 F 1 "LM555N" H 9500 5200 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8" H 9900 5550 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8" H 9900 5550 50  0001 C CNN
 F 3 "" H 9900 5550 50  0000 C CNN
 	1    9900 5550
 	1    0    0    -1  
@@ -184,7 +184,7 @@ U 1 1 59267607
 P 10550 4850
 F 0 "R37" V 10630 4850 50  0000 C CNN
 F 1 "100k" V 10550 4850 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 10480 4850 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 10480 4850 50  0001 C CNN
 F 3 "" H 10550 4850 50  0000 C CNN
 	1    10550 4850
 	1    0    0    -1  
@@ -195,7 +195,7 @@ U 1 1 59267776
 P 10550 5200
 F 0 "R38" V 10630 5200 50  0000 C CNN
 F 1 "100k" V 10550 5200 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 10480 5200 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 10480 5200 50  0001 C CNN
 F 3 "" H 10550 5200 50  0000 C CNN
 	1    10550 5200
 	1    0    0    -1  
@@ -206,7 +206,7 @@ U 1 1 5928F203
 P 8800 5350
 F 0 "RV1" H 8800 5250 50  0000 C CNN
 F 1 "500K" H 8800 5350 50  0000 C CNN
-F 2 "LED Dimmer Footprints:POT_UM_296RE" H 8800 5350 50  0001 C CNN
+F 2 "led_dimmer_footprints:POT_UM_296RE" H 8800 5350 50  0001 C CNN
 F 3 "" H 8800 5350 50  0000 C CNN
 	1    8800 5350
 	1    0    0    -1  
@@ -217,7 +217,7 @@ U 1 1 5928F733
 P 3450 2250
 F 0 "U1" H 3400 2450 50  0000 L CNN
 F 1 "LM358" H 3450 2100 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 3450 2250 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 3450 2250 50  0001 C CNN
 F 3 "" H 3450 2250 50  0000 C CNN
 	1    3450 2250
 	1    0    0    1   
@@ -228,7 +228,7 @@ U 2 1 5928F7C4
 P 5350 1900
 F 0 "U1" H 5300 2100 50  0000 L CNN
 F 1 "LM358" H 5300 1650 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 5350 1900 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 5350 1900 50  0001 C CNN
 F 3 "" H 5350 1900 50  0000 C CNN
 	2    5350 1900
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 5929069A
 P 2600 850
 F 0 "R2" V 2680 850 50  0000 C CNN
 F 1 "3k3" V 2600 850 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 850 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 850 50  0001 C CNN
 F 3 "" H 2600 850 50  0000 C CNN
 	1    2600 850 
 	0    1    1    0   
@@ -250,7 +250,7 @@ U 1 1 59290813
 P 2600 1050
 F 0 "R3" V 2680 1050 50  0000 C CNN
 F 1 "3k3" V 2600 1050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 1050 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 1050 50  0001 C CNN
 F 3 "" H 2600 1050 50  0000 C CNN
 	1    2600 1050
 	0    1    1    0   
@@ -261,7 +261,7 @@ U 1 1 5929089F
 P 2600 1500
 F 0 "R5" V 2680 1500 50  0000 C CNN
 F 1 "3k3" V 2600 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 1500 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 1500 50  0001 C CNN
 F 3 "" H 2600 1500 50  0000 C CNN
 	1    2600 1500
 	0    1    1    0   
@@ -272,7 +272,7 @@ U 1 1 59290BF2
 P 2600 1900
 F 0 "R7" V 2680 1900 50  0000 C CNN
 F 1 "3k3" V 2600 1900 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 1900 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 1900 50  0001 C CNN
 F 3 "" H 2600 1900 50  0000 C CNN
 F 4 "1/4W" V 2600 1900 60  0001 C CNN "Power"
 	1    2600 1900
@@ -284,7 +284,7 @@ U 1 1 59290C82
 P 2600 2150
 F 0 "R8" V 2680 2150 50  0000 C CNN
 F 1 "N/C" V 2600 2150 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 2150 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 2150 50  0001 C CNN
 F 3 "" H 2600 2150 50  0000 C CNN
 	1    2600 2150
 	0    1    1    0   
@@ -303,7 +303,7 @@ U 1 1 592951C3
 P 3400 1500
 F 0 "R25" V 3480 1500 50  0000 C CNN
 F 1 "1k5" V 3400 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 3330 1500 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 3330 1500 50  0001 C CNN
 F 3 "" H 3400 1500 50  0000 C CNN
 	1    3400 1500
 	0    1    1    0   
@@ -326,7 +326,7 @@ U 1 1 59299BA7
 P 5950 1900
 F 0 "R28" V 6030 1900 50  0000 C CNN
 F 1 "10k" V 5950 1900 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 5880 1900 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 5880 1900 50  0001 C CNN
 F 3 "" H 5950 1900 50  0000 C CNN
 	1    5950 1900
 	0    1    1    0   
@@ -337,7 +337,7 @@ U 1 1 5929A26B
 P 6400 1900
 F 0 "Q1" H 6700 1950 50  0000 R CNN
 F 1 "TIP31C" H 7000 1850 50  0000 R CNN
-F 2 "LED Dimmer Footprints:TO-220_Vertical" H 6600 2000 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-220_Vertical" H 6600 2000 50  0001 C CNN
 F 3 "" H 6400 1900 50  0000 C CNN
 	1    6400 1900
 	1    0    0    -1  
@@ -348,7 +348,7 @@ U 1 1 5929A2E8
 P 6350 1500
 F 0 "R31" V 6430 1500 50  0000 C CNN
 F 1 "330" V 6350 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 6280 1500 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 6280 1500 50  0001 C CNN
 F 3 "" H 6350 1500 50  0000 C CNN
 	1    6350 1500
 	-1   0    0    1   
@@ -361,7 +361,7 @@ U 1 1 5929F906
 P 2850 7400
 F 0 "D1" H 2925 7750 50  0000 C CNN
 F 1 "LED_RABG" H 2875 7050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:LED_D5.0mm-4" H 2800 7350 50  0001 C CNN
+F 2 "led_dimmer_footprints:LED_D5.0mm-4" H 2800 7350 50  0001 C CNN
 F 3 "" H 2800 7350 50  0000 C CNN
 	1    2850 7400
 	-1   0    0    1   
@@ -386,7 +386,7 @@ U 1 1 592A6279
 P 6850 3650
 F 0 "P2" H 6850 3800 50  0000 C CNN
 F 1 "Green Load" V 6950 3650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 3650 50  0001 C CNN
+F 2 "led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 3650 50  0001 C CNN
 F 3 "" H 6850 3650 50  0000 C CNN
 	1    6850 3650
 	1    0    0    -1  
@@ -397,7 +397,7 @@ U 1 1 592A627F
 P 3450 4400
 F 0 "U2" H 3400 4600 50  0000 L CNN
 F 1 "LM358" H 3450 4250 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 3450 4400 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 3450 4400 50  0001 C CNN
 F 3 "" H 3450 4400 50  0000 C CNN
 	1    3450 4400
 	1    0    0    1   
@@ -408,7 +408,7 @@ U 2 1 592A6285
 P 5350 4050
 F 0 "U2" H 5300 4250 50  0000 L CNN
 F 1 "LM358" H 5300 3800 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 5350 4050 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 5350 4050 50  0001 C CNN
 F 3 "" H 5350 4050 50  0000 C CNN
 	2    5350 4050
 	1    0    0    -1  
@@ -423,7 +423,7 @@ U 1 1 592A62C5
 P 3400 3650
 F 0 "R26" V 3480 3650 50  0000 C CNN
 F 1 "1k5" V 3400 3650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 3330 3650 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 3330 3650 50  0001 C CNN
 F 3 "" H 3400 3650 50  0000 C CNN
 	1    3400 3650
 	0    1    1    0   
@@ -446,7 +446,7 @@ U 1 1 592A62D1
 P 5950 4050
 F 0 "R29" V 6030 4050 50  0000 C CNN
 F 1 "10k" V 5950 4050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 5880 4050 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 5880 4050 50  0001 C CNN
 F 3 "" H 5950 4050 50  0000 C CNN
 	1    5950 4050
 	0    1    1    0   
@@ -457,7 +457,7 @@ U 1 1 592A62D7
 P 6400 4050
 F 0 "Q2" H 6700 4100 50  0000 R CNN
 F 1 "TIP31C" H 7000 4000 50  0000 R CNN
-F 2 "LED Dimmer Footprints:TO-220_Vertical" H 6600 4150 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-220_Vertical" H 6600 4150 50  0001 C CNN
 F 3 "" H 6400 4050 50  0000 C CNN
 	1    6400 4050
 	1    0    0    -1  
@@ -468,7 +468,7 @@ U 1 1 592A62DD
 P 6350 3650
 F 0 "R32" V 6430 3650 50  0000 C CNN
 F 1 "360" V 6350 3650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 6280 3650 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 6280 3650 50  0001 C CNN
 F 3 "" H 6350 3650 50  0000 C CNN
 	1    6350 3650
 	-1   0    0    1   
@@ -485,7 +485,7 @@ U 1 1 592A68A1
 P 6850 5800
 F 0 "P3" H 6850 5950 50  0000 C CNN
 F 1 "Blue Load" V 6950 5800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 5800 50  0001 C CNN
+F 2 "led_dimmer_footprints:2.1ID_5.5OD_SIDE_MOUNT_JACK" H 6850 5800 50  0001 C CNN
 F 3 "" H 6850 5800 50  0000 C CNN
 	1    6850 5800
 	1    0    0    -1  
@@ -496,7 +496,7 @@ U 1 1 592A68A7
 P 3450 6550
 F 0 "U3" H 3400 6750 50  0000 L CNN
 F 1 "LM358" H 3450 6400 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 3450 6550 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 3450 6550 50  0001 C CNN
 F 3 "" H 3450 6550 50  0000 C CNN
 	1    3450 6550
 	1    0    0    1   
@@ -507,7 +507,7 @@ U 2 1 592A68AD
 P 5350 6200
 F 0 "U3" H 5300 6400 50  0000 L CNN
 F 1 "LM358" H 5300 5950 50  0000 L CNN
-F 2 "LED Dimmer Footprints:DIP8_dualopamp" H 5350 6200 50  0001 C CNN
+F 2 "led_dimmer_footprints:DIP8_dualopamp" H 5350 6200 50  0001 C CNN
 F 3 "" H 5350 6200 50  0000 C CNN
 	2    5350 6200
 	1    0    0    -1  
@@ -518,7 +518,7 @@ U 1 1 592A68E3
 P 2600 6450
 F 0 "R24" V 2680 6450 50  0000 C CNN
 F 1 "N/C" V 2600 6450 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 6450 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 6450 50  0001 C CNN
 F 3 "" H 2600 6450 50  0000 C CNN
 	1    2600 6450
 	0    1    1    0   
@@ -535,7 +535,7 @@ U 1 1 592A68ED
 P 3400 5800
 F 0 "R27" V 3480 5800 50  0000 C CNN
 F 1 "1k5" V 3400 5800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 3330 5800 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 3330 5800 50  0001 C CNN
 F 3 "" H 3400 5800 50  0000 C CNN
 	1    3400 5800
 	0    1    1    0   
@@ -558,7 +558,7 @@ U 1 1 592A68F9
 P 5950 6200
 F 0 "R30" V 6030 6200 50  0000 C CNN
 F 1 "10k" V 5950 6200 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 5880 6200 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 5880 6200 50  0001 C CNN
 F 3 "" H 5950 6200 50  0000 C CNN
 	1    5950 6200
 	0    1    1    0   
@@ -569,7 +569,7 @@ U 1 1 592A68FF
 P 6400 6200
 F 0 "Q3" H 6700 6250 50  0000 R CNN
 F 1 "TIP31C" H 7000 6150 50  0000 R CNN
-F 2 "LED Dimmer Footprints:TO-220_Vertical" H 6600 6300 50  0001 C CNN
+F 2 "led_dimmer_footprints:TO-220_Vertical" H 6600 6300 50  0001 C CNN
 F 3 "" H 6400 6200 50  0000 C CNN
 	1    6400 6200
 	1    0    0    -1  
@@ -580,7 +580,7 @@ U 1 1 592A6905
 P 6350 5800
 F 0 "R33" V 6430 5800 50  0000 C CNN
 F 1 "300" V 6350 5800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 6280 5800 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 6280 5800 50  0001 C CNN
 F 3 "" H 6350 5800 50  0000 C CNN
 	1    6350 5800
 	-1   0    0    1   
@@ -603,7 +603,7 @@ U 1 1 5929B052
 P 9400 1400
 F 0 "R34" V 9480 1400 50  0000 C CNN
 F 1 "33k" V 9400 1400 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 9330 1400 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 9330 1400 50  0001 C CNN
 F 3 "" H 9400 1400 50  0000 C CNN
 	1    9400 1400
 	1    0    0    -1  
@@ -614,7 +614,7 @@ U 1 1 5929CFD6
 P 2600 1800
 F 0 "R6" V 2525 1800 50  0000 C CNN
 F 1 "3k3" V 2600 1800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 1800 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 1800 50  0001 C CNN
 F 3 "" H 2600 1800 50  0000 C CNN
 	1    2600 1800
 	0    1    1    0   
@@ -625,7 +625,7 @@ U 1 1 5929D28C
 P 2600 1250
 F 0 "R4" V 2680 1250 50  0000 C CNN
 F 1 "3k3" V 2600 1250 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 1250 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 1250 50  0001 C CNN
 F 3 "" H 2600 1250 50  0000 C CNN
 	1    2600 1250
 	0    1    1    0   
@@ -636,7 +636,7 @@ U 1 1 5929EA8E
 P 2600 3200
 F 0 "R11" V 2680 3200 50  0000 C CNN
 F 1 "3k3" V 2600 3200 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 3200 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 3200 50  0001 C CNN
 F 3 "" H 2600 3200 50  0000 C CNN
 	1    2600 3200
 	0    1    1    0   
@@ -647,7 +647,7 @@ U 1 1 5929EA94
 P 2600 3650
 F 0 "R13" V 2680 3650 50  0000 C CNN
 F 1 "3k3" V 2600 3650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 3650 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 3650 50  0001 C CNN
 F 3 "" H 2600 3650 50  0000 C CNN
 	1    2600 3650
 	0    1    1    0   
@@ -658,7 +658,7 @@ U 1 1 5929EA9A
 P 2600 4050
 F 0 "R15" V 2680 4050 50  0000 C CNN
 F 1 "3k3" V 2600 4050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 4050 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 4050 50  0001 C CNN
 F 3 "" H 2600 4050 50  0000 C CNN
 	1    2600 4050
 	0    1    1    0   
@@ -669,7 +669,7 @@ U 1 1 5929EAA0
 P 2600 4300
 F 0 "R16" V 2680 4300 50  0000 C CNN
 F 1 "N/C" V 2600 4300 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 4300 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 4300 50  0001 C CNN
 F 3 "" H 2600 4300 50  0000 C CNN
 	1    2600 4300
 	0    1    1    0   
@@ -686,7 +686,7 @@ U 1 1 5929EAB3
 P 2600 3950
 F 0 "R14" V 2525 3950 50  0000 C CNN
 F 1 "3k3" V 2600 3950 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 3950 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 3950 50  0001 C CNN
 F 3 "" H 2600 3950 50  0000 C CNN
 	1    2600 3950
 	0    1    1    0   
@@ -697,7 +697,7 @@ U 1 1 5929EAB9
 P 2600 3400
 F 0 "R12" V 2680 3400 50  0000 C CNN
 F 1 "3k3" V 2600 3400 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 3400 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 3400 50  0001 C CNN
 F 3 "" H 2600 3400 50  0000 C CNN
 	1    2600 3400
 	0    1    1    0   
@@ -708,7 +708,7 @@ U 1 1 592A05AE
 P 2600 5350
 F 0 "R19" V 2680 5350 50  0000 C CNN
 F 1 "3k3" V 2600 5350 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 5350 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 5350 50  0001 C CNN
 F 3 "" H 2600 5350 50  0000 C CNN
 	1    2600 5350
 	0    1    1    0   
@@ -719,7 +719,7 @@ U 1 1 592A05B4
 P 2600 5800
 F 0 "R21" V 2680 5800 50  0000 C CNN
 F 1 "3k3" V 2600 5800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 5800 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 5800 50  0001 C CNN
 F 3 "" H 2600 5800 50  0000 C CNN
 	1    2600 5800
 	0    1    1    0   
@@ -730,7 +730,7 @@ U 1 1 592A05BA
 P 2600 6200
 F 0 "R23" V 2680 6200 50  0000 C CNN
 F 1 "3k3" V 2600 6200 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 6200 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 6200 50  0001 C CNN
 F 3 "" H 2600 6200 50  0000 C CNN
 	1    2600 6200
 	0    1    1    0   
@@ -743,7 +743,7 @@ U 1 1 592A05C8
 P 2600 6100
 F 0 "R22" V 2525 6100 50  0000 C CNN
 F 1 "3k3" V 2600 6100 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 6100 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 6100 50  0001 C CNN
 F 3 "" H 2600 6100 50  0000 C CNN
 	1    2600 6100
 	0    1    1    0   
@@ -754,7 +754,7 @@ U 1 1 592A05CE
 P 2600 5550
 F 0 "R20" V 2680 5550 50  0000 C CNN
 F 1 "3k3" V 2600 5550 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 5550 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 5550 50  0001 C CNN
 F 3 "" H 2600 5550 50  0000 C CNN
 	1    2600 5550
 	0    1    1    0   
@@ -1097,7 +1097,7 @@ U 1 1 59420DF7
 P 2600 750
 F 0 "R1" V 2525 750 50  0000 C CNN
 F 1 "10k" V 2600 750 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 750 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 750 50  0001 C CNN
 F 3 "" H 2600 750 50  0001 C CNN
 	1    2600 750 
 	0    1    1    0   
@@ -1108,7 +1108,7 @@ U 1 1 59422BF5
 P 2600 3000
 F 0 "R10" V 2680 3000 50  0000 C CNN
 F 1 "3k3" V 2600 3000 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 3000 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 3000 50  0001 C CNN
 F 3 "" H 2600 3000 50  0000 C CNN
 	1    2600 3000
 	0    1    1    0   
@@ -1119,7 +1119,7 @@ U 1 1 59422BFB
 P 2600 2900
 F 0 "R9" V 2500 2900 50  0000 C CNN
 F 1 "10k" V 2600 2900 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 2900 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 2900 50  0001 C CNN
 F 3 "" H 2600 2900 50  0001 C CNN
 	1    2600 2900
 	0    1    1    0   
@@ -1130,7 +1130,7 @@ U 1 1 5942347C
 P 2600 5150
 F 0 "R18" V 2680 5150 50  0000 C CNN
 F 1 "3k3" V 2600 5150 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 5150 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 5150 50  0001 C CNN
 F 3 "" H 2600 5150 50  0000 C CNN
 	1    2600 5150
 	0    1    1    0   
@@ -1141,7 +1141,7 @@ U 1 1 59423482
 P 2600 5050
 F 0 "R17" V 2525 5050 50  0000 C CNN
 F 1 "10k" V 2600 5050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:R_Axial" V 2530 5050 50  0001 C CNN
+F 2 "led_dimmer_footprints:R_Axial" V 2530 5050 50  0001 C CNN
 F 3 "" H 2600 5050 50  0001 C CNN
 	1    2600 5050
 	0    1    1    0   
@@ -1152,7 +1152,7 @@ U 1 1 59424194
 P 9000 2400
 F 0 "TP7" H 9000 2700 50  0000 C BNN
 F 1 "TEST" H 9000 2650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 9000 2400 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 9000 2400 50  0001 C CNN
 F 3 "" H 9000 2400 50  0001 C CNN
 	1    9000 2400
 	1    0    0    -1  
@@ -1163,7 +1163,7 @@ U 1 1 594242E9
 P 10400 5000
 F 0 "TP8" H 10400 5300 50  0000 C BNN
 F 1 "TEST" H 10400 5250 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 10400 5000 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 10400 5000 50  0001 C CNN
 F 3 "" H 10400 5000 50  0001 C CNN
 	1    10400 5000
 	1    0    0    -1  
@@ -1175,7 +1175,7 @@ U 1 1 59426E1F
 P 4050 6500
 F 0 "TP3" H 4050 6800 50  0000 C BNN
 F 1 "TEST" H 4050 6750 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 4050 6500 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 4050 6500 50  0001 C CNN
 F 3 "" H 4050 6500 50  0001 C CNN
 	1    4050 6500
 	1    0    0    -1  
@@ -1186,7 +1186,7 @@ U 1 1 59426EB4
 P 4050 4350
 F 0 "TP2" H 4050 4650 50  0000 C BNN
 F 1 "TEST" H 4050 4600 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 4050 4350 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 4050 4350 50  0001 C CNN
 F 3 "" H 4050 4350 50  0001 C CNN
 	1    4050 4350
 	1    0    0    -1  
@@ -1197,7 +1197,7 @@ U 1 1 59426FC3
 P 3900 1500
 F 0 "TP1" H 3900 1800 50  0000 C BNN
 F 1 "TEST" H 3900 1750 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 3900 1500 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 3900 1500 50  0001 C CNN
 F 3 "" H 3900 1500 50  0001 C CNN
 	1    3900 1500
 	1    0    0    -1  
@@ -1208,7 +1208,7 @@ U 1 1 59427B12
 P 6150 1250
 F 0 "TP4" H 6150 1550 50  0000 C BNN
 F 1 "TEST" H 6150 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 6150 1250 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 6150 1250 50  0001 C CNN
 F 3 "" H 6150 1250 50  0001 C CNN
 	1    6150 1250
 	1    0    0    -1  
@@ -1219,7 +1219,7 @@ U 1 1 59427BD7
 P 6200 3450
 F 0 "TP5" H 6200 3750 50  0000 C BNN
 F 1 "TEST" H 6200 3700 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 6200 3450 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 6200 3450 50  0001 C CNN
 F 3 "" H 6200 3450 50  0001 C CNN
 	1    6200 3450
 	1    0    0    -1  
@@ -1230,7 +1230,7 @@ U 1 1 59427C78
 P 6200 5600
 F 0 "TP6" H 6200 5900 50  0000 C BNN
 F 1 "TEST" H 6200 5850 50  0000 C CNN
-F 2 "LED Dimmer Footprints:test_pt_alt" H 6200 5600 50  0001 C CNN
+F 2 "led_dimmer_footprints:test_pt_alt" H 6200 5600 50  0001 C CNN
 F 3 "" H 6200 5600 50  0001 C CNN
 	1    6200 5600
 	1    0    0    -1  
@@ -1250,7 +1250,7 @@ U 1 1 59428968
 P 1700 800
 F 0 "SW1" H 1700 970 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 750 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 800 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 800 50  0001 C CNN
 F 3 "" H 1700 800 50  0001 C CNN
 	1    1700 800 
 	1    0    0    -1  
@@ -1261,7 +1261,7 @@ U 1 1 59428B8B
 P 1700 1150
 F 0 "SW2" H 1700 1320 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 1100 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 1150 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 1150 50  0001 C CNN
 F 3 "" H 1700 1150 50  0001 C CNN
 	1    1700 1150
 	1    0    0    -1  
@@ -1272,7 +1272,7 @@ U 1 1 59428C7E
 P 1700 1550
 F 0 "SW3" H 1700 1720 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 1500 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 1550 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 1550 50  0001 C CNN
 F 3 "" H 1700 1550 50  0001 C CNN
 	1    1700 1550
 	1    0    0    -1  
@@ -1283,7 +1283,7 @@ U 1 1 59428D7A
 P 1700 1900
 F 0 "SW4" H 1700 2070 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 1850 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 1900 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 1900 50  0001 C CNN
 F 3 "" H 1700 1900 50  0001 C CNN
 	1    1700 1900
 	1    0    0    -1  
@@ -1294,7 +1294,7 @@ U 1 1 5942A24A
 P 1700 2950
 F 0 "SW5" H 1700 3120 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 2900 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 2950 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 2950 50  0001 C CNN
 F 3 "" H 1700 2950 50  0001 C CNN
 	1    1700 2950
 	1    0    0    -1  
@@ -1305,7 +1305,7 @@ U 1 1 5942A250
 P 1700 3300
 F 0 "SW6" H 1700 3470 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 3250 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 3300 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 3300 50  0001 C CNN
 F 3 "" H 1700 3300 50  0001 C CNN
 	1    1700 3300
 	1    0    0    -1  
@@ -1316,7 +1316,7 @@ U 1 1 5942A256
 P 1700 3700
 F 0 "SW7" H 1700 3870 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 3650 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 3700 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 3700 50  0001 C CNN
 F 3 "" H 1700 3700 50  0001 C CNN
 	1    1700 3700
 	1    0    0    -1  
@@ -1327,7 +1327,7 @@ U 1 1 5942A25C
 P 1700 4050
 F 0 "SW8" H 1700 4220 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 4000 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 4050 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 4050 50  0001 C CNN
 F 3 "" H 1700 4050 50  0001 C CNN
 	1    1700 4050
 	1    0    0    -1  
@@ -1338,7 +1338,7 @@ U 1 1 5942BC16
 P 1700 5100
 F 0 "SW9" H 1700 5270 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 5050 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 5100 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 5100 50  0001 C CNN
 F 3 "" H 1700 5100 50  0001 C CNN
 	1    1700 5100
 	1    0    0    -1  
@@ -1349,7 +1349,7 @@ U 1 1 5942BC1C
 P 1700 5450
 F 0 "SW10" H 1700 5620 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 5400 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 5450 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 5450 50  0001 C CNN
 F 3 "" H 1700 5450 50  0001 C CNN
 	1    1700 5450
 	1    0    0    -1  
@@ -1360,7 +1360,7 @@ U 1 1 5942BC22
 P 1700 5850
 F 0 "SW11" H 1700 6020 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 5800 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 5850 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 5850 50  0001 C CNN
 F 3 "" H 1700 5850 50  0001 C CNN
 	1    1700 5850
 	1    0    0    -1  
@@ -1371,7 +1371,7 @@ U 1 1 5942BC28
 P 1700 6200
 F 0 "SW12" H 1700 6370 50  0000 C CNN
 F 1 "SW_SPDT" H 1750 6150 50  0000 C CNN
-F 2 "LED Dimmer Footprints:SW_SPDT_PCBPM" H 1700 6200 50  0001 C CNN
+F 2 "led_dimmer_footprints:SW_SPDT_PCBPM" H 1700 6200 50  0001 C CNN
 F 3 "" H 1700 6200 50  0001 C CNN
 	1    1700 6200
 	1    0    0    -1  
